@@ -26,17 +26,17 @@ void setSymbolValue(const std::string& symbol, const std::string& variable) {
     double value = 0.0;
 
     // Determine the value based on the symbol provided
-    if (symbol == "X Upper Shade") {
+    if (symbol == "6") {
         value = 22;
-    } else if (symbol == "X Lower Shade") {
+    } else if (symbol == "5") {
         value = 21;
-    } else if (symbol == "Shaded T") {
+    } else if (symbol == "4") {
         value = 20;
-    } else if (symbol == "Figure Eight") {
+    } else if (symbol == "3") {
         value = 11;
-    } else if (symbol == "Diagonal Circles") {
+    } else if (symbol == "2") {
         value = 10;
-    } else if (symbol == "Circle") {
+    } else if (symbol == "1") {
         value = 0;
     } else {
         std::cerr << "Unknown symbol: " << symbol << std::endl;

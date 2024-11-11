@@ -7,7 +7,7 @@ double getX();
 double getY();
 double getZ();
 
-void setSymbolValue(const std::string& symbol, double& variable);
+void setSymbolValue(const std::string& symbol, const std::string& variable);
 
 
 #endif // SYMBOLS_H
